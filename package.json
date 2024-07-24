@@ -1,0 +1,16 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "This is fisrt github complex project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Full",
+    "backend",
+    "github"
+  ],
+  "author": "Saddam Ansari",
+  "license": "ISC"
+}
