@@ -15,6 +15,10 @@ connectDB()
         console.log("Error from express app",error)
     })
 
+    app.get('/',(req,res)=>{
+        res.send('Helo')
+    })
+
     app.listen(process.env.PORT || 8000,()=>{
         console.log(`Server is runnig at port : ${process.env.PORT}`)
     })
